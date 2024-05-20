@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon Cards</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/03769711f5.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
@@ -18,11 +22,23 @@
         </div>
         <div class="nav-menu">
           <button class="nav-toggle">☰</button>
-          <ul class="nav-links">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
+          <div class="menu-navbar">
+            <ul class="nav-links">
+              <li>
+                <a href="#"><i class="fa-solid fa-house fa-1x"></i> Inicio</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-gamepad fa-1x"></i> Productos</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-envelope fa-1x"></i> Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <header>
@@ -38,94 +54,100 @@
         <div class="product-cards-pokemon">
           <div class="product-card">
             <img src="./assets/imgs/carta-1.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Ondulagua EX</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-2.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Wugtrio EX</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-3.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Ferropalmas</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-4.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Ferrotesta EX</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-5.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Ferromole EX</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-6.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Farigiraf EX</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-7.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Electrofuria EX</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-8.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Ferrocuello</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-9.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Master Ball</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-10.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Tambores del Despertar</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-11.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Capa de Héroes</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-12.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Snom</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-13.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Flamariete EX</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-14.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Ferrotesta EX</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-15.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Ondulagua EX</h3>
             <button>Ver más</button>
           </div>
           <div class="product-card">
             <img src="./assets/imgs/carta-16.png" alt="Producto" />
-            <h3>Model: Producto</h3>
+            <h3>Relicanth</h3>
             <button>Ver más</button>
           </div>
         </div>
+        <div class="pagination">
+          <button class="page-button">&laquo;</button>
+          <button class="page-button active">1</button>
+          <button class="page-button">2</button>
+          <button class="page-button">3</button>
+          <button class="page-button">&raquo;</button>
+        </div>
       </main>
       <footer class="pie-pagina">
-        &copy; 2024 SEEXShop. Todos los derechos reservados.
+        <div class="rrss">
+          <i class="fa-brands fa-facebook fa-3x"></i>
+          <i class="fa-brands fa-square-instagram fa-3x"></i>
+        </div>
+        &copy; 2024 Pokemon Gaming Cards. Todos los derechos reservados.
       </footer>
     </div>
-    <script>
-      document.querySelector(".nav-toggle").addEventListener("click", () => {
-        document.querySelector(".nav-links").classList.toggle("show");
-      });
-    </script>
   </body>
 </html>
