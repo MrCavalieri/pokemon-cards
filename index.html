@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Cards</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo-container">
+          <img
+            src="./assets/imgs/Logo-Final-removebg-preview.png"
+            alt="logo"
+            class="logo"
+          />
+        </div>
+        <div class="nav-menu">
+          <button class="nav-toggle">☰</button>
+          <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+      <header>
+        <div class="filtro-container">
+          <label for="ordenar">Ordenar Por:</label>
+          <select id="ordenar" name="ordenar">
+            <option value="precio">Precio</option>
+            <option value="popularidad">Popularidad</option>
+          </select>
+        </div>
+      </header>
+      <main>
+        <div class="product-cards-pokemon">
+          <div class="product-card">
+            <img src="./assets/imgs/carta-1.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-2.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-3.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-4.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-5.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-6.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-7.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-8.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-9.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-10.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-11.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-12.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-13.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-14.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-15.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+          <div class="product-card">
+            <img src="./assets/imgs/carta-16.png" alt="Producto" />
+            <h3>Model: Producto</h3>
+            <button>Ver más</button>
+          </div>
+        </div>
+      </main>
+      <footer class="pie-pagina">
+        &copy; 2024 SEEXShop. Todos los derechos reservados.
+      </footer>
+    </div>
+    <script>
+      document.querySelector(".nav-toggle").addEventListener("click", () => {
+        document.querySelector(".nav-links").classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
